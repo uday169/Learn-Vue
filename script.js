@@ -1,7 +1,7 @@
 new Vue ({
 	el: '#app',
 	data: {
-		products: 'Boot',
-		description: 'Hi,this is description'
+        product: 'Socks',
+        image: './assets/vmSocks-green-onWhite.jpg'
 	}
 })

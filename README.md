@@ -1,2 +1,2 @@
 # Learn-Vue
-Learning Vue Js from udemy
+Basic vue.js from Vue Mastery
