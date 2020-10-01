@@ -9,13 +9,24 @@ new Vue ({
         variants:[
             {
                 variantId: 2232,
-                variantColor: "Green"
+                variantColor: "Green",
+                variantImage: './assets/vmSocks-green-onWhite.jpg',
             },
             {
                 variantId: 2233,
-                variantColor: "Blue"
+                variantColor: "Blue",
+                variantImage: './assets/vmSocks-blue-onWhite.jpg',
             }
         ],
-
-	}
+        cart: 0,
+    },
+    methods:{
+        addtoCart() {
+            this.cart += 1
+        },
+        updateProduct(variantImage) {
+            this.image = variantImage
+        }
+    }
+    
 })
