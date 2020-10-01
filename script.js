@@ -4,8 +4,18 @@ new Vue ({
         product: 'Socks',
         image: './assets/vmSocks-green-onWhite.jpg',
         description: 'Pair of Socks',
-        // inventory: 1
-        inStock: false
+        inStock: false,
+        details: ["80% cotton" , "20% polister", "Gender-neutral"],
+        variants:[
+            {
+                variantId: 2232,
+                variantColor: "Green"
+            },
+            {
+                variantId: 2233,
+                variantColor: "Blue"
+            }
+        ],
 
 	}
 })
