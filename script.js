@@ -3,8 +3,8 @@ new Vue ({
 	data: {
         product: 'Socks',
         image: './assets/vmSocks-green-onWhite.jpg',
-        description: 'Pair of socks',
-        inStock: false
+        description: 'Pair of Socks',
+        inventory: 1
 
 	}
 })
