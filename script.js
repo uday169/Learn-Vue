@@ -4,7 +4,8 @@ new Vue ({
         product: 'Socks',
         image: './assets/vmSocks-green-onWhite.jpg',
         description: 'Pair of Socks',
-        inventory: 1
+        // inventory: 1
+        inStock: false
 
 	}
 })
